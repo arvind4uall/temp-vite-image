@@ -2,8 +2,6 @@ import { useGlobalContext } from './context'
 
 const SearchForm = () => {
   const { setSearchTerm } = useGlobalContext()
-  const API_ACCESS_KEY = 'sUcNmnrdJLibkXmg1nXzw5fMKEToxsn5vyrsFYXgeWY'
-  const API_SECRET_KEY = '3goxgskuXvedAZG7yPf_KaEv9KLiCsKSoYZ7Mq8mYG8'
   const handleSubmit = (e) => {
     e.preventDefault()
     const searchValue = e.target.elements.search.value
